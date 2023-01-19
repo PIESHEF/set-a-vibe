@@ -13,7 +13,7 @@ export default function Home() {
       <main className="bg-white">
         <div className="text-3xl font-bold p-4">
           <h1 className="text-slate-900 tracking-tight">
-            Set a vibe
+            Set a vibe!
           </h1>
         </div>
       </main>
