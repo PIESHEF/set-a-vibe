@@ -1,15 +1,16 @@
-import PlainLayout from 'layouts/PlainLayout';
+import { NextPage } from "next";
+import React from "react";
 
-function Home() {
+const HomePage: NextPage = () => {
   return (
-    <PlainLayout>
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
-          Set a Vibe!
+          Home
         </h1>
       </main>
-    </PlainLayout>
+    </div>
   )
 }
 
-export default Home;
+export default HomePage;
